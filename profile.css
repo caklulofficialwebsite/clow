@@ -1,0 +1,41 @@
+body {
+	font : 12px/24px arial, sans-serif;
+	background-color: #eaeaea;
+	color:#333;
+}
+
+.container {
+	width: 1028px;
+	margin: auto;
+	background-color: white;
+}
+
+.content {
+	background-color: white;
+}
+
+.main {
+	width:600px;
+	background-color:#aeaeae;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main img {
+	height : 200px;
+	width  : 350px;  
+}
+
+.sidebar {
+	width : 380px;
+	padding: 20px;
+	margin-left: 5px;
+	background-color: white;
+	font-size: 11px;
+	float: right;
+}
+
+.sidebar a {
+	text-decoration: none;
+}
+
