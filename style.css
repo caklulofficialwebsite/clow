@@ -1,0 +1,164 @@
+			/* CSS Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Your code */
+
+
+body {
+	font : 12px/24px arial, sans-serif;
+	background-color: #eaeaea;
+	color:#333;
+}
+
+.container {
+	width: 1028px;
+	margin: auto;
+	background-color: white;
+}
+
+.container img {
+	width: 1028px;
+}
+
+.header {
+	padding: 35px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 32px
+	margin-right: 10px;
+}
+
+.header a{
+	text-decoration: none;
+	color: lightgreen;
+	padding: 4px;
+}
+
+.header a:hover{
+	background-color: lime;
+	color: white;
+}
+
+.marquee{
+	background-color: salmon;
+	font-size: 13px;
+	transition: 20s;
+}
+
+.hero {
+	height: 400px;
+	padding:;
+	background-image: url(clow.jpg);
+	background-size: cover;
+	background-position: 0 -310px;
+	border-top: 5px solid lightblue;
+	border-left:5px solid lightblue;
+	border-right: 5px solid lightblue;
+	border-bottom: 5px solid lightblue;
+}
+
+.main { 
+	width: 600px;
+	background-color: #aeaeae;
+	float: right;
+	box-sizing: border-box;
+	float: left;
+ }
+
+ .main h2 {
+ 	font-size: 25px;
+ 	font-weight: bold;
+ }
+
+ .penulis{
+ 	margin-bottom: 20px;
+ }
+
+ .sidebar {
+ 	width : 380px;
+ 	padding: 20px;
+ 	float: right;
+ 	font-size: 11px;
+ }
+
+ .sidebar img {
+ 	width: 50px;
+ 	height: 100px;!
+ 	float: left;
+ 	padding: 10px;
+ }
+
+ .footer{
+ 	background-color: black;
+ 	text-align: center;
+ 	font-size: 10px;
+ }
+
+ /* micro clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
